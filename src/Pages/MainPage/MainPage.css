@@ -1,0 +1,302 @@
+@font-face {
+    font-family: CabernetJFPro;
+    src: url(../../assets/Fonts/CabernetJFPro.ttf);
+}
+@font-face {
+    font-family: EuclidCircularB-Light;
+    src: url(../../assets/Fonts/EuclidCircularB-Light.ttf);
+}
+
+.Banner{
+    display: grid;
+    justify-content: center;
+}
+.BunnerBackground{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1296px;
+    height: 647px;
+    background: #C7E3E9;
+}
+.BunnerBackground .Item{
+    height: 100%;
+    /* border: 1px solid black; */
+}
+/* .Item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 647px;
+    border: 1px solid black;
+} */
+.Plutform{
+    width: 1296px;
+    height: 40px;
+}
+.FirstIllustration, .SecondIllustration{
+    display: grid;
+    justify-content: center;
+    align-items: flex-end;
+}
+.FirstIllustration img{
+    width: 282px;
+    height: 365px;
+}
+.SecondIllustration img{
+    width: 282px;
+    height: 365px;
+}
+.Headline{
+    font-family: CabernetJFPro;
+    padding-top: 20px;
+    text-align: center;
+    color: #040062;
+    /* white-space: nowrap; */
+}
+.Headline hr{
+    width: 196px;
+    height: 2px;
+    color:#B3CCDB;
+}
+.Headline img{
+    margin-top: 90px;
+}
+.Headline h3, h2, h1{
+    white-space: nowrap;
+    padding-top: 30px;
+}
+.Headline h3{
+    font-size: 60px;
+}
+.Headline h2{
+    font-size: 80px;
+}
+.Headline h1{
+    font-size: 110px;
+}
+.Plutform img:first-child{
+    width: 335px;
+   padding-left: 32px;
+}
+.Plutform img:last-child{
+    width: 335px;
+    height: 247px;
+    padding-right:  32px ;
+}
+.Plutform img{
+    margin-bottom: 32px;
+    width: 341px;
+    height: 234px;
+}
+.Plutform{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.SecondContainer{
+    height: 648px;
+    /* border: solid black 1px; */
+    display: grid;
+}
+.ConteinerWith2Items{
+    height: 648px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* border: solid black 1px; */
+}
+.ConteinerWith2Items .Item2nd{
+    /* width: 648px; */
+    height: 100%;
+    /* border: solid black 1px; */
+}
+.Beground2ndConteiner{
+    height: 648px;
+    width: 648px;
+    background-color: #FEF1EF;
+}
+.Beground2ndConteiner{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.Item2nd-1{
+    display: grid;
+    justify-content: end;
+    align-items: flex-end;
+}
+.Item2nd-3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.Item2nd-3 img{
+    margin-right: 100px;
+    position: absolute;
+    bottom: -1px;
+    z-index: 2;
+}
+.Item2nd-3 img:last-child{
+    z-index: 1;
+}
+.Item2nd-2 {
+    display: grid;
+    align-items: center;   
+    grid-auto-columns: minmax(100px, 90%);
+}
+.Item2nd-2 span{
+    /* width: 80%; */
+    margin-left: 100px; 
+    margin-right: 132px;
+}
+h2{
+    height: 120px;
+    /* width: 449px; */
+    font-family: CabernetJFPro;
+    font-size: 48px;
+    color:  #040062;  
+}
+p{
+    font-family: EuclidCircularB-Light;
+    font-size: 18px; 
+    line-height: 24px;
+    color: #6D758D;
+}
+/* .Item2nd-2 h2{
+    height: 120px;
+    width: 449px;
+    font-family: CabernetJFPro;
+    font-size: 48px;
+    color:  #040062;
+} */
+/* .Item2nd-2 p{
+    font-family: EuclidCircularB-Light;
+    font-size: 18px;
+} */
+.ThierdConteiner{
+    height: 648px;
+}
+.ThierdrdWith2Items{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.ThierdrdWith2Items .Item3rd{
+    height: 100%;
+}
+.Conteiner3rdPhoneBG{
+    display: grid;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    height: 648px;
+    width: 648px;
+    background-color:#C7E3E9;
+}
+.ThierdItem-2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.ThierdItem-2 span{
+    width: 503px;
+}
+.ThierdContainerPluform{
+    width: 100%;
+    height: 1px;
+    position: relative;
+    display: grid;
+    align-items: flex-end;
+    justify-content: center;
+}
+.ThierdContainerPluform img{position: absolute;}
+.ThierdContainerPluform img:first-child{
+    right: 500px;
+    bottom: 100px; 
+}
+.ThierdContainerPluform img:last-child{
+    right: 550px;
+    bottom: -21px;
+}
+.ErroeHappend{
+    z-index: 1 !important;
+    position: absolute;
+    bottom: 0 !important;
+}
+.Cont5thBuuton{
+    font-family: EuclidCircularB-Light;
+    border-radius: 100px;
+    width: 187px;
+    height: 52px;
+    color: white;
+    font-size: 16px;
+    background: #0013FF;
+}
+.NewsletterSection {
+    height: 674px;
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.NewLetters{
+    background: #F5FBFF;
+    height: 395px;
+    width: 1296px;
+    display: grid;
+    justify-content: end;
+
+}
+.IllustrationBlock{
+    padding: 64px 24px 64px 24px;
+    height: 483px;
+    width: 376px;
+    border-radius: 14px;
+    background: linear-gradient(0deg, #C7E3E9, #C7E3E9),linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    position: absolute;
+    left: 162px;
+    bottom: 94px;
+}
+.IllustrationBlock img{
+    position: absolute;
+}
+.IllustrationBlock img:last-child{
+    margin-top: 120px;
+}
+.NewLettersBlock{
+    display: grid;
+    align-items: center;
+    padding-bottom: 30px;
+    margin-right: 162px;
+    width: 496px;
+    height: 100%;
+}
+.NewLettersBlock span input{
+    height: 52px;
+    width: 341px;
+    border-radius: 100px;
+    font-family: EuclidCircularB-Light;
+    padding-left: 50px;
+}
+.NewLettersBlock span button{
+    font-family: EuclidCircularB-Light;
+    border-radius: 100px;
+    margin-left: 20px;
+    padding: 14px 31px 14px 31px;
+    color: white;
+    font-size: 16px;
+    background: #0013FF;
+}
+.NewLettersBlock span p {
+    width: 455px;
+}
+a{
+    color: #6D758D;
+    font-family: EuclidCircularB-Light;
+    font-size: 13px;
+}
+.Apply{
+    position: absolute;
+    right: 175px;
+    top: 110px;
+}

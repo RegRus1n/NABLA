@@ -1,0 +1,65 @@
+@font-face {
+    font-family: EuclidCircularB-Light;
+    src: url(../../assets/Fonts/EuclidCircularB-Light.ttf);
+}
+
+.Footer{
+    display: grid;justify-content: center;
+}
+.footer {
+    border-top: solid 1px #DCE0E9;
+    width: 1175px;
+    height: 290px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .footer div{
+    padding-top: 81px;
+  }
+  .footer div p{
+    margin-top: 12px;
+  }
+  .footer div p:first-child{
+    font-family: EuclidCircularB-Light;
+    color: #040062;
+    font-size: 22px;
+    text-align: left;
+  }
+  
+  .logo {
+    grid-column: 1 / 2;
+    font-weight: bold;
+  }
+  
+  .company {
+    grid-column: 2 / 3;
+  }
+  
+  .address {
+    grid-column: 3 / 4;
+  }
+  
+  .contact {
+    grid-column: 4 / 5;
+  }
+  
+  .social {
+    text-align: end;
+    grid-column: 6 / 6;
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-end; */
+  }
+  .social img{
+    margin-right: 24.6px;
+  }
+  
+  .social-icon {
+    width: 1.5rem;
+    margin-left: 1rem;
+  }
+  
+  
